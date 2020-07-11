@@ -1,0 +1,6 @@
+.popup__window {
+  position: relative;
+  object-fit: cover; 
+  display: block;
+  
+}

@@ -1,0 +1,20 @@
+.popup__form {
+  margin-top: 60px;
+}
+
+.error-message {
+  color: #FF3333;
+  font-size: 0.8em;
+  transition: .3s;
+  padding: 0px;
+  opacity: 0;
+}
+
+.input__invalid .error-message {
+  padding: 10px;
+  opacity: 1;
+}
+
+.input__invalid .input__text {
+  border-color: #FF3333;
+}
