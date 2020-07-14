@@ -1,4 +1,6 @@
-class UserInfo {
+'use strict';
+
+export class UserInfo {
   constructor(person, about, api) {
     this.person = person;
     this.about = about;

@@ -1,4 +1,6 @@
-class CardList { // для хранения и отрисовки карточки
+'use strict';
+
+export class CardList { // для хранения и отрисовки карточки
 
   constructor(container, createCard, popupImg, template, api) {
     this._container = container;
