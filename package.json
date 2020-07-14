@@ -1,11 +1,11 @@
 {
   "name": "yp_project11",
-  "homepage": "https://github.com/tttatttu/project11#readme",
+  "homepage": "https://github.com/tttatttu/project11",
   "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "Mesto. Prackticum project. Webpack bandle",
+  "main": "./src/scripts/index.js",
   "scripts": {
-    "build": "cross-env NODE_ENV=production rimraf dist && webpack --mode production",
+    "build": "rimraf dist && cross-env NODE_ENV=production webpack --mode production",
     "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --open --watch",
     "deploy": "cross-env NODE_ENV=production gh-pages -d dist"
   },
@@ -18,6 +18,7 @@
   "bugs": {
     "url": "https://github.com/tttatttu/project11/issues"
   },
+  "homepage": "https://github.com/tttatttu/project11",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
