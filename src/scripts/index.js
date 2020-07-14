@@ -1,9 +1,21 @@
+'use strict';
+
+import '../pages/index.css';
+
+import {Api} from './Api.js'
+import {Card} from './Card.js'
+import {CardList} from './CardList.js'
+import {FormValidator} from './FormValidator.js'
+import {Popup} from './Popup.js'
+import {UserInfo} from './UserInfo.js'
+
+const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort11/' : 'https://praktikum.tk/cohort11/';
 const placeList = document.querySelector(".places-list");
 const template = document.querySelector('#cardlist-template').content.querySelector(".place-card");
 const imgPopup = document.getElementById("popup__img");
 const popupImg = new Popup(imgPopup);
 const options = {
-  baseUrl: 'https://praktikum.tk/cohort11',
+  baseUrl: serverUrl,
   headers: {
     authorization: '97003477-34f8-401f-bc72-5e2a641b9a11',
     'Content-Type': 'application/json',

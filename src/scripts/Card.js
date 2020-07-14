@@ -1,4 +1,6 @@
-class Card { // создает карточку
+'use strict';
+
+export class Card { // создает карточку
 
   constructor(item, popupImg, template, api) {
     this.item = item;

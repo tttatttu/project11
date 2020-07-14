@@ -1,4 +1,6 @@
-class FormValidator {
+'use strict';
+
+export class FormValidator {
   constructor(form, errorMessages) {
     this.form = form;
     this.errorMessages = errorMessages;

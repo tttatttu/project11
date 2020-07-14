@@ -1,4 +1,6 @@
-class Api {
+'use strict';
+
+export class Api {
     constructor(options) {
       this.baseUrl = options.baseUrl;
       this.headers = options.headers;
