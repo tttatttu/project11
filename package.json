@@ -1,6 +1,6 @@
 {
-  "name": "yp_project11",
-  "homepage": "https://github.com/tttatttu/project11",
+  "name": "social_network1",
+  "homepage": "https://github.com/tttatttu/social_network",
   "version": "0.0.1",
   "description": "Mesto. Prackticum project. Webpack bandle",
   "main": "./src/scripts/index.js",
@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tttatttu/project11.git"
+    "url": "git+https://github.com/tttatttu/social_network.git"
   },
   "author": "Tatiana Malashkina",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tttatttu/project11/issues"
+    "url": "https://github.com/tttatttu/social_network/issues"
   },
-  "homepage": "https://github.com/tttatttu/project11",
+  "homepage": "https://github.com/tttatttu/social_network",
   "devDependencies": {
     "@babel/cli": "^7.10.4",
     "@babel/core": "^7.10.4",
