@@ -1,4 +1,4 @@
-# [Социальная сеть](https://tttatttu.github.io/project11)
+# [Социальная сеть](https://tttatttu.github.io/social_network)
 
 ## Версия 1.0.1
 
