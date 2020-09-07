@@ -16,7 +16,7 @@ import {UserInfo} from './UserInfo.js'
   const imgPopup = document.getElementById("popup__img");
   const popupImg = new Popup(imgPopup);
 
-  const serverUrl = NODE_ENV === 'development' ? 'http://praktikum.tk/cohort11' : 'https://praktikum.tk/cohort11';
+  const serverUrl = NODE_ENV === 'development' ? 'http://nomoreparties.co/cohort11' : 'https://nomoreparties.co/cohort11';
   const options = {
     baseUrl: serverUrl,
     headers: {
