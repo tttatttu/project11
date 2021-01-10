@@ -1,4 +1,5 @@
-# [Социальная сеть](https://tttatttu.github.io/social_network)
+# [Социальная сеть](https://tttatttu.github.io/social_network) **
+** для просмотра проекта, кликните на название
 
 ## Версия 1.0.1
 
